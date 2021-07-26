@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Train</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <h1 class="logo">
+      <i class="fas fa-user-cog"></i> LocoIndia Admin DashBoard</h1>
+    <ul>
+      <li><a href="#showcase">View Schedule</a></li>
+      <li><a href="#what">Generate Schedule</a></li>
+      <li><a href="#what">Add a train</a></li>
+      <li><a href="#who">Log Out</a></li>
+    </ul>
+  </nav>
+
+  <section id="add-train">
+    <div class="container">
+      <form action="" class="form" id="form">
+        <h2>Add a LocoMobile : </h2>
+        <div class="form-control">
+          <label class="inline-label" for="assignedId">Train Identification Number</label>
+          <input class="inline-input" type="text" id="assignedId" placeholder="123456">
+          <!-- <small>Error Message</small> -->
+        </div>
+        <div class="form-control">
+          <label for="trainName">Train Name</label>
+          <input type="text" id="trainName" placeholder="Rajdhani Express">
+          <!-- <small>Error Message</small> -->
+        </div>
+        <div class="form-control">
+          <label for="departFrom">Depart From</label>
+          <input type="text" id="departFrom" placeholder="Delhi">
+          <!-- <small>Error Message</small> -->
+        </div>
+        <div class="form-control">
+          <label for="arriveTo">Departs departure on</label>
+          <input type="text" id="arriveTo" placeholder="07:00:00">
+          <!-- <small>Error Message</small> -->
+        </div>
+        <div class="form-control">
+          <label for="arriveTo">Arrival to</label>
+          <input type="text" id="arriveTo" placeholder="Ahmedabad">
+          <!-- <small>Error Message</small> -->
+        </div>
+        <div class="form-control">
+          <label for="arriveTo">Arrives Destination On</label>
+          <input type="text" id="arriveTo" placeholder="15:00:00">
+          <!-- <small>Error Message</small> -->
+        </div>
+        <div class="form-control"><label for="runsOn">Runs On</label></div>
+        <div class="form-control-checkbox">
+          <label for="runsOn">Monday</label>
+          <input type="checkbox" id="monday">
+          <label for="runsOn">Tuesday</label>
+          <input type="checkbox" id="tuesday">
+          <label for="runsOn">Wednesday</label>
+          <input type="checkbox" id="wednesday">
+          <label for="runsOn">Thursday</label>
+          <input type="checkbox" id="thursday">
+          <label for="runsOn">Friday</label>
+          <input type="checkbox" id="friday">
+          <label for="runsOn">Saturday</label>
+          <input type="checkbox" id="saturday">
+          <label for="runsOn">Sunday</label>
+          <input type="checkbox" id="sunday">
+        </div>
+        <div class="form-control">
+
+        </div>
+        <button id="addTrain" type="button">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
