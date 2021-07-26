@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+header {
+  background: #333 url(donnie-rosie-taO2fC7sxDU-unsplash.jpg) no-repeat center center/cover;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 6rem;
+  overflow: hidden;
+}
+
+.showcase {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.neon-light {
+  font-size: 8rem;
+  font-weight: lighter;
+  z-index: 1;
+  color: #FF0000;
+  text-shadow: 0px 0px 15px #FF0000;
+}
