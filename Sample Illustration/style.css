@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {}
+
+.showcase {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#DevGirl {
+  animation: type 2s ease-in-out infinite alternate;
+}
+
+#CoffeeSmoke {
+  animation: smoke 2s linear infinite alternate;
+}
+
+@keyframes smoke {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes type {
+  from {
+    transform: translateX(-10px);
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
