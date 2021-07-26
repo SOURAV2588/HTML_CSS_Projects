@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #3cb371;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+/* Global Styles */
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.bg-normal {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+.bg-alternate {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+.l-heading {
+  font-size: 2rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Navbar Section */
+#navbar {
+  display: flex;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 0 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar div h1 a {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+#navbar div ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+#navbar div ul li {
+  padding: 0 0.5rem;
+  margin: 0.75rem;
+  font-size: 1.2rem;
+}
+
+/* Showcase Section */
+#showcase {
+  margin-top: 1rem;
+}
+
+#showcase h2 {
+  color: var(--secondary-color);
+}
+
+#showcase .quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+
+#showcase .quote img {
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}

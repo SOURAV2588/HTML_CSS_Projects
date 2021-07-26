@@ -1,0 +1,2 @@
+1. Use different themes for different types of Quotes
+2. Change Navbar and the backdrop simultaneously for this change type
